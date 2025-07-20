@@ -1,0 +1,58 @@
+[terminal]
+shell = "/usr/bin/zsh"
+
+[window]
+padding = { x = 30, y = 30 }
+dynamic_padding = false
+decorations = "none"
+opacity = 1
+
+[colors.primary]
+background = '#000000'
+foreground = '#dfdad9'
+
+[colors.normal]
+black=   '#000000'
+red=    '#f01d1d'
+green=   '#31748f'
+yellow=  '#FFD166'
+blue=    '#7699dc'
+magenta= '#967ba3'
+cyan=    '#31748f'
+white=   '#F2F2F2'
+
+[colors.bright]
+black = '#1a103d'
+blue =  '#6e6a86'
+cyan = '#7AA89F'
+green = '#87a987'
+magenta = '#938AA9'
+red = '#E46876'
+white = '#c5c9c5'
+yellow = '#E6C384'
+
+
+[font]
+size = 16.0
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style = "Regular"
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font"
+style = "Italic"
+
+[font.bold_italic]
+family = "JetBrainsMono Nerd Font"
+style = "Bold Italic"
+
+[env]
+TERM = "xterm-256color"
+
+[mouse]
+hide_when_typing = true
